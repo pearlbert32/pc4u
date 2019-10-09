@@ -67,7 +67,9 @@ li a:hover {
   text-decoration: none;
   color: black;
 }
-
+.img1{
+  display: inline;
+}
 
 
 
