@@ -1,0 +1,63 @@
+*{
+	background-color: #D2D4C8;
+   
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2E3532;
+    max-width: 525px;
+  margin: auto;
+}
+.heading-1 h1{
+	text-align: center;
+	  max-width: 525px;
+  margin: auto;
+}
+.product1{
+	float: left;
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #2E3532;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.logo{
+  height: 50px;
+  width: 90px
+}
+.main, .main2, .main3{
+
+	border-style:inset;
+}
+.mains{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-column-gap: 10px;
+}
+.product2{
+	height: 290px;
+	width:290px;
+	float: left;
+}
+.product3{
+	height: 290px;
+	width: 290px;
+	float: left;
+}
