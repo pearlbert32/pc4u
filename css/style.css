@@ -50,6 +50,7 @@ li a:hover {
 	display: grid;
 	grid-template-columns:1fr 1fr 1fr;
 	grid-column-gap: 10px;
+
 }
 .product2{
 	height: 290px;
@@ -60,6 +61,10 @@ li a:hover {
 	height: 290px;
 	width: 290px;
 	float: left;
+}
+.main a{
+  text-decoration: none;
+  color: black;
 }
 
 
