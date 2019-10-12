@@ -68,11 +68,13 @@ li a:hover {
   color: black;
 }
 .img1{
-  display: inline;
+	float: left;
+	padding-right: 350px
 }
-
-
-
+.p1{
+	width: 925px;
+	text-align: center;
+}
 
 
 
