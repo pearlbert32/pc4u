@@ -90,7 +90,7 @@ li a:hover {
 .home{
   display: grid;
   grid-template-columns: 1fr 1fr;
-
+ /* border: solid 1px;*/
 }
 
 #div1{
@@ -98,11 +98,17 @@ li a:hover {
   justify-content: center;
   flex-direction: column-reverse;
   text-align: center;
+  font-size: 40px;
+  border: solid 10px;
+  border-color: #caccc0;
+
 
 
 }
-
-
+#div2{
+  border: solid 10px;
+  border-color: #caccc0;
+}
 
 
 
