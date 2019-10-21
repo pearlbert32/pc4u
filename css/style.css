@@ -1,6 +1,6 @@
 header{
 	background-color: #D2D4C8;
-   
+  margin: 1px;
 }
 main{
   background-color: #D2D4C8;
@@ -10,7 +10,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #2E3532;
+  background-color: 
+#2E3532;
   max-width: 550px;
   margin: auto;
 }
@@ -23,38 +24,30 @@ ul {
 .product1{
 	float: left;
 }
-
-
 li {
   float: left;
 }
-
 li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: #2E3532;
 }
-
 li a:hover {
   background-color: #111;
 }
-
 .logo{
   height: 50px;
   width: 95px
 }
 .main, .main2, .main3{
-
 	border-style:inset;
 }
 .mains{
 	display: grid;
 	grid-template-columns:1fr 1fr 1fr;
 	grid-column-gap: 10px;
-
 }
 .product1{
     height: 290px;
@@ -76,10 +69,8 @@ li a:hover {
   color: black;
 }
 .img1{
-  
 	float: left;
 	padding-right: 350px
-
 }
 .img2{
   height: 290px;
@@ -91,37 +82,35 @@ li a:hover {
 	width: 925px;
 	text-align: center;
 }
-
-
-
 /*-----------------------index.html-----------------------------*/
-
 .home{
   display: grid;
   grid-template-columns: 1fr 1fr;
- 
 }
 body{
   margin: 0 auto;
+  background-color: #D2D4C8;
 }
-
 #div1{
   display: flex;
   justify-content: center;
   flex-direction: column-reverse;
   text-align: center;
   font-size: 30px;
-  border: solid 10px;
-  border-color: #caccc0;
-
-
-
+  border-left: solid 10px;
+  border-bottom:  solid 10px;
+  border-top:  solid 10px;
+  border-color: #a6a89d;
+  background-color: #c8c9bd;
 }
 #div2{
   border: solid 10px;
-  border-color: #caccc0;
+  border-color: #a6a89d;
   display: flex;
   justify-content: center;
+  background-color: #c8c9bd;
+  text-align: center;
+  flex-direction: column;
 }
 .div20{
   text-align: center;
@@ -134,21 +123,24 @@ body{
   color: #301818;
   margin-bottom: 40px;
 }
-
 footer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #B8B8AE;
-  text-align: center;
-
-  
+  font-family:Trebuchet MS;
+  height: 300px;
 }
-
 footer h3{
-  display: flex;
-  justify-content: space-between;
-  color: #5B2C2C
+  margin: 40px;
+  text-align: center;
+  color: #5B2C2C;
 }
-.a1a{
+.hola{
   background-color: #B8B8AE;
+  margin-left:170px;
+  display: flex;
+  flex-direction: column;
 }
+ #ppp{
+  font-size: 30px;
+ 
