@@ -80,14 +80,22 @@ li a:hover {
 
 
 
+/*-----------------------index.html-----------------------------*/
+
+.home{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+#div1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  text-align: center;
 
 
-
-
-
-
-
-
+}
 
 
 
