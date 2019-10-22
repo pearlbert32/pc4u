@@ -1,7 +1,7 @@
-
 header{
 	background-color: #D2D4C8;
   margin: 1px;
+
 }
 main{
   background-color: #D2D4C8;
@@ -101,7 +101,7 @@ body{
   justify-content: center;
   flex-direction: column-reverse;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   border-left: solid 10px;
   border-bottom:  solid 10px;
   border-top:  solid 10px;
@@ -162,6 +162,28 @@ footer h3{
 }
 
 /*----------------------contact-----------------------*/
-.icons{
-  display: inline-block;
+#icons{
+  display: flex;
+  justify-content: center;
+}
+#icon11{
+  margin-right: 150px;
+  margin-top: 10px;
+}
+#icon2{
+  margin-right: 80px;
+  margin-top: 7px;
+
+}
+#icon13{
+  margin-right: 80px;
+  margin-bottom: 87px;
+}
+#icon14{
+  margin-top: 8px;
+}
+#ule{
+  background-color:#D2D4C8 ;
+  display: flex;
+  flex-direction: column;
 }
