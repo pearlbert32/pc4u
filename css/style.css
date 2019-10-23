@@ -187,3 +187,18 @@ footer h3{
   display: flex;
   flex-direction: column;
 }
+/*-----------------------reparatie.html-----------------------------*/
+.laptop{
+  height: 220px;
+  width: 220px;
+  margin: 25px;
+  float: left;
+}
+.p1{
+  display: block;
+  text-align: center;
+}
+.reparatiemain{
+  display: grid;
+  
+}
